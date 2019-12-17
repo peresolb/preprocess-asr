@@ -52,5 +52,6 @@ at Språkbanken. Used as gold-standard.
 - LICENSE
 - README.md
 
-## How to run
-- Produced improved transcription: 
+## Examples of how to run
+- Produce improved transcription: python run_preprocessing.py 20171123-095513_wphr.json Stortinget-20171123-095513.ref improved_transcription.json
+- Get WER of transcription file: python stats_preprocess.py improved_transcription.json Stortinget-20171123-095513_gold.txt
